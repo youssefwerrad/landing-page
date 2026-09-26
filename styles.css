@@ -92,13 +92,11 @@ body {
 .info-img-placeholder {
   width: 150px;
   height: 150px;
+  object-fit: cover;
   border: 4px solid #3882F6;
   border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #3882F6;
   margin: 0 auto 16px;
+  display: block;
 }
 
 /* ---------- Quote section ---------- */
